@@ -1,0 +1,40 @@
+#global daily
+ mean(gloabl_best_model_error$rmse) 
+[1] 0.4007719
+> mean(gloabl_best_model_error$mase)
+[1] 6.487674
+> mean(gloabl_best_model_error$smape)
+[1] 47.19134
+
+#global weekly
+> mean(gloabl_best_model_error$rmse) 
+[1] 0.7756327
+> mean(gloabl_best_model_error$mase)
+[1] 7.657367
+> mean(gloabl_best_model_error$smape)
+[1] 99.42639
+
+#global monthly
+> mean(gloabl_best_model_error$rmse) 
+[1] 0.4917234
+> mean(gloabl_best_model_error$mase)
+[1] 4.600852
+> mean(gloabl_best_model_error$smape)
+[1] 59.76316
+
+#global quarterly
+> mean(gloabl_best_model_error$rmse) 
+[1] 0.5386517
+> mean(gloabl_best_model_error$mase)
+[1] 3.267751
+> mean(gloabl_best_model_error$smape)
+[1] 40.25062
+
+
+#global yearly
+> mean(gloabl_best_model_error$rmse) 
+[1] 0.6565286
+> mean(gloabl_best_model_error$mase)
+[1] 2.54329
+> mean(gloabl_best_model_error$smape)
+[1] 57.41378

@@ -1,0 +1,104 @@
+############################# nested daily  ##############################
+#naive
+> mean(nested_best_model_error_naive$rmse) 
+[1] 0.1834412
+> mean(nested_best_model_error_naive$mase)
+[1] 2.503242
+> mean(nested_best_model_error_naive$smape)
+[1] 18.67577
+
+#models
+> mean(nested_best_model_error$rmse) 
+[1] 0.1532157
+> mean(nested_best_model_error$mase)
+[1] 2.044297
+> mean(nested_best_model_error$smape)
+[1] 16.68127
+
+
+########################   nested hourly ##################################
+#naive
+
+> mean(nested_best_model_error_naive$rmse) 
+[1] 1.157466
+> mean(nested_best_model_error_naive$mase)
+[1] 3.350778
+> mean(nested_best_model_error_naive$smape)
+[1] 136.5712
+
+#models
+> mean(nested_best_model_error$rmse) 
+[1] 0.213186
+> mean(nested_best_model_error$mase)
+[1] 0.5300879
+> mean(nested_best_model_error$smape)
+[1] 33.26441
+
+#######################nested weekly ##########################################
+#naive
+> mean(nested_best_model_error_naive$rmse) 
+[1] 0.4127515
+> mean(nested_best_model_error_naive$mase)
+[1] 1.56895
+> mean(nested_best_model_error_naive$smape)
+[1] 59.10015
+> 
+
+#models
+> mean(nested_best_model_error$rmse) 
+[1] 0.3070517
+> mean(nested_best_model_error$mase)
+[1] 0.8661514
+> mean(nested_best_model_error$smape)
+[1] 53.97511
+#####################nested monthly ############################################
+#naive
+> mean(nested_best_model_error_naive$rmse) 
+[1] 0.4457715
+> mean(nested_best_model_error_naive$mase)
+[1] 2.491281
+> mean(nested_best_model_error_naive$smape)
+[1] 45.56768
+
+#models
+> mean(nested_best_model_error$rmse) 
+[1] 0.3426484
+> mean(nested_best_model_error$mase)
+[1] 1.914243
+> mean(nested_best_model_error$smape)
+[1] 42.25445
+
+#################nested quarterly ######################################
+#naive
+> mean(nested_best_model_error_naive$rmse) 
+[1] 0.5645002
+> mean(nested_best_model_error_naive$mase)
+[1] 2.526956
+> mean(nested_best_model_error_naive$smape)
+[1] 43.31961
+
+#models
+> mean(nested_best_model_error$rmse) 
+[1] 0.3650454
+> mean(nested_best_model_error$mase)
+[1] 1.423057
+> mean(nested_best_model_error$smape)
+[1] 30.33752
+
+##################nester yearly ###########################################
+#naive
+> mean(nested_best_model_error_naive$rmse) 
+[1] 0.4706877
+> mean(nested_best_model_error_naive$mase)
+[1] 2.130613
+> mean(nested_best_model_error_naive$smape)
+[1] 33.34815
+
+
+#models
+> mean(nested_best_model_error$rmse) 
+[1] 0.2957247
+> mean(nested_best_model_error$mase)
+[1] 1.186571
+> mean(nested_best_model_error$smape)
+[1] 29.20784
